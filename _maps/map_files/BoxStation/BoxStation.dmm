@@ -1100,18 +1100,18 @@
 /turf/open/floor/plasteel,
 /area/ai_monitored/security/armory)
 "acV" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
 /obj/machinery/power/solar{
 	id = "auxsolareast";
 	name = "Port Auxiliary Solar Array"
 	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/solar/port/fore)
 "acW" = (
-/obj/structure/cable,
 /obj/structure/lattice/catwalk,
+/obj/structure/cable/yellow,
 /turf/open/space,
 /area/solar/port/fore)
 "acX" = (
@@ -1335,18 +1335,18 @@
 /turf/open/floor/wood,
 /area/crew_quarters/theatre)
 "ads" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
 /obj/machinery/power/solar{
 	id = "auxsolareast";
 	name = "Port Auxiliary Solar Array"
 	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/solar/starboard/fore)
 "adt" = (
-/obj/structure/cable,
 /obj/structure/lattice/catwalk,
+/obj/structure/cable/yellow,
 /turf/open/space,
 /area/solar/starboard/fore)
 "adu" = (
@@ -1627,11 +1627,11 @@
 /turf/open/space,
 /area/solar/starboard/fore)
 "adZ" = (
-/obj/structure/cable,
 /obj/machinery/power/solar{
 	id = "auxsolareast";
 	name = "Port Auxiliary Solar Array"
 	},
+/obj/structure/cable/yellow,
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/solar/port/fore)
 "aed" = (
@@ -1922,11 +1922,11 @@
 /turf/open/floor/plasteel,
 /area/engine/gravity_generator)
 "aeG" = (
-/obj/structure/cable,
 /obj/machinery/power/solar{
 	id = "auxsolareast";
 	name = "Port Auxiliary Solar Array"
 	},
+/obj/structure/cable/yellow,
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/solar/starboard/fore)
 "aeK" = (
@@ -36588,22 +36588,22 @@
 /turf/open/floor/plasteel/freezer,
 /area/crew_quarters/toilet/locker)
 "cca" = (
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
 /obj/machinery/power/solar{
 	id = "portsolar";
 	name = "Port Solar Array"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/solar/port/aft)
 "ccb" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
 /obj/machinery/power/solar{
 	id = "portsolar";
 	name = "Port Solar Array"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/solar/port/aft)
@@ -37910,8 +37910,8 @@
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "cgz" = (
-/obj/structure/cable,
 /obj/structure/lattice/catwalk,
+/obj/structure/cable/yellow,
 /turf/open/space,
 /area/solar/port/aft)
 "cgA" = (
@@ -38298,7 +38298,7 @@
 /area/solar/port/aft)
 "chJ" = (
 /obj/machinery/power/tracker,
-/obj/structure/cable{
+/obj/structure/cable/yellow{
 	icon_state = "0-4"
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
@@ -40941,8 +40941,8 @@
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "cqJ" = (
-/obj/structure/cable,
 /obj/structure/lattice/catwalk,
+/obj/structure/cable/yellow,
 /turf/open/space,
 /area/solar/starboard/aft)
 "cqN" = (
@@ -41443,7 +41443,6 @@
 /turf/open/floor/plasteel/white,
 /area/medical/genetics)
 "csY" = (
-/obj/structure/cable,
 /obj/structure/lattice/catwalk,
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
@@ -41454,6 +41453,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
+/obj/structure/cable/yellow,
 /turf/open/space,
 /area/solar/starboard/aft)
 "csZ" = (
@@ -41553,8 +41553,8 @@
 /turf/open/floor/plasteel,
 /area/medical/genetics)
 "ctB" = (
-/obj/structure/cable,
 /obj/machinery/power/tracker,
+/obj/structure/cable/yellow,
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/solar/starboard/aft)
 "ctD" = (
@@ -45281,21 +45281,21 @@
 /turf/open/floor/plating,
 /area/engine/supermatter)
 "cMQ" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
 /obj/machinery/power/solar{
 	id = "starboardsolar";
 	name = "Starboard Solar Array"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/solar/starboard/aft)
 "cNa" = (
-/obj/structure/cable,
 /obj/machinery/power/solar{
 	id = "starboardsolar";
 	name = "Starboard Solar Array"
 	},
+/obj/structure/cable/yellow,
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/solar/starboard/aft)
 "cNi" = (
@@ -48332,13 +48332,13 @@
 	dir = 1;
 	luminosity = 2
 	},
-/obj/structure/cable,
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
 /obj/machinery/camera/autoname{
 	dir = 4
 	},
+/obj/structure/cable/yellow,
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
 "gdH" = (
@@ -50634,10 +50634,10 @@
 	id = "portsolar";
 	name = "Port Quarter Solar Control"
 	},
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 9
 	},
+/obj/structure/cable/yellow,
 /turf/open/floor/plating,
 /area/maintenance/solars/port/aft)
 "jgU" = (
@@ -54392,7 +54392,7 @@
 /obj/machinery/power/turbine{
 	luminosity = 2
 	},
-/obj/structure/cable,
+/obj/structure/cable/yellow,
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
 "nDb" = (
