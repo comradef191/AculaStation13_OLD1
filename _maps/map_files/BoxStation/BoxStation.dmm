@@ -38305,11 +38305,8 @@
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "chG" = (
-/obj/structure/cable{
-	icon_state = "2-9"
-	},
-/turf/open/floor/plasteel,
-/area/engine/engineering)
+/turf/open/floor/plating,
+/area/space)
 "chI" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable/yellow{
@@ -40314,7 +40311,7 @@
 /area/engine/engineering)
 "coK" = (
 /obj/structure/cable{
-	icon_state = "2-5"
+	icon_state = "2-9"
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
@@ -43880,14 +43877,8 @@
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "cDg" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 8
-	},
-/obj/structure/cable/white{
-	icon_state = "6-8"
+/obj/structure/cable{
+	icon_state = "2-5"
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
@@ -43913,6 +43904,22 @@
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cDj" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 8
+	},
+/obj/structure/cable/white{
+	icon_state = "6-8"
+	},
+/turf/open/floor/plasteel,
+/area/engine/engineering)
+"cDm" = (
+/obj/machinery/vending/engivend,
+/turf/open/floor/plasteel,
+/area/engine/engineering)
+"cDp" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -43925,16 +43932,6 @@
 	},
 /turf/open/floor/engine,
 /area/engine/engineering)
-"cDm" = (
-/obj/machinery/vending/engivend,
-/turf/open/floor/plasteel,
-/area/engine/engineering)
-"cDp" = (
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/turf/open/floor/engine,
-/area/engine/supermatter)
 "cDt" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -45727,13 +45724,13 @@
 /area/engine/engineering)
 "cTc" = (
 /obj/structure/cable/white{
-	icon_state = "4-9"
+	icon_state = "4-8"
 	},
 /turf/open/floor/engine,
 /area/engine/supermatter)
 "cTe" = (
 /obj/structure/cable/white{
-	icon_state = "5-8"
+	icon_state = "4-9"
 	},
 /turf/open/floor/engine,
 /area/engine/supermatter)
@@ -55674,6 +55671,12 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/cryopods)
+"poP" = (
+/obj/structure/cable/white{
+	icon_state = "5-8"
+	},
+/turf/open/floor/engine,
+/area/engine/supermatter)
 "pph" = (
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume{
 	dir = 1
@@ -89683,7 +89686,7 @@ ccw
 ccw
 ccw
 cnZ
-cDg
+cDj
 cpt
 oUi
 vYa
@@ -90713,7 +90716,7 @@ lQs
 ccw
 coM
 cpv
-cDj
+cDp
 qud
 qud
 gst
@@ -91489,8 +91492,8 @@ cDD
 cqU
 cMD
 cEu
-cDp
 cTc
+cTe
 cMD
 cFL
 cGf
@@ -91994,7 +91997,7 @@ cSX
 ckK
 clJ
 cmL
-chG
+coK
 gZJ
 chX
 ylc
@@ -92508,7 +92511,7 @@ cfb
 cfb
 ccw
 cmN
-coK
+cDg
 gZJ
 flF
 nbg
@@ -93031,8 +93034,8 @@ cDE
 cEa
 cMD
 cEz
-cDp
-cTe
+cTc
+poP
 cMD
 cFR
 cSJ
@@ -98932,7 +98935,7 @@ aoV
 aoV
 aoV
 aaf
-cOe
+chG
 aoV
 aoV
 aoV
@@ -109980,7 +109983,7 @@ cOe
 akP
 cOe
 cOe
-bzs
+cNW
 cOe
 cOe
 ahO
@@ -111004,11 +111007,11 @@ eyF
 bTl
 bTl
 bQZ
-bzs
+cNW
 alD
-bzs
-bzs
-bzs
+cNW
+cNW
+cNW
 clt
 cOb
 cOe
