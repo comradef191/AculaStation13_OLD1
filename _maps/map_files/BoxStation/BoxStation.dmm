@@ -4545,11 +4545,15 @@
 /turf/open/floor/plasteel,
 /area/security/brig)
 "aku" = (
-/obj/structure/cable{
-	icon_state = "1-4"
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 1
 	},
-/turf/open/floor/plating,
-/area/maintenance/aft)
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/engine/break_room)
 "akv" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -4976,9 +4980,6 @@
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "alo" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/atmospherics/pipe/simple/yellow/visible{
 	dir = 4
 	},
@@ -5123,14 +5124,11 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "alE" = (
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/atmospherics/pipe/simple/yellow/visible{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
@@ -11264,15 +11262,11 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "aFy" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "1-6"
 	},
 /turf/open/floor/plasteel,
-/area/engine/break_room)
+/area/crew_quarters/heads/chief)
 "aFz" = (
 /turf/open/floor/plasteel/dark,
 /area/chapel/main)
@@ -33819,11 +33813,17 @@
 /turf/open/floor/engine,
 /area/science/xenobiology)
 "bTg" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
 /obj/structure/cable{
-	icon_state = "1-6"
+	icon_state = "4-10"
 	},
 /turf/open/floor/plasteel,
-/area/crew_quarters/heads/chief)
+/area/engine/engineering)
 "bTh" = (
 /obj/machinery/holopad,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
@@ -35171,6 +35171,9 @@
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "bXH" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
@@ -35178,7 +35181,7 @@
 	dir = 4
 	},
 /obj/structure/cable{
-	icon_state = "4-10"
+	icon_state = "6-8"
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
@@ -38303,16 +38306,7 @@
 /area/engine/engineering)
 "chG" = (
 /obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "6-8"
+	icon_state = "2-9"
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
@@ -38828,12 +38822,6 @@
 /turf/open/floor/plasteel,
 /area/construction)
 "cjr" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
 /obj/machinery/atmospherics/pipe/simple/yellow/visible{
 	dir = 6
 	},
@@ -40326,7 +40314,7 @@
 /area/engine/engineering)
 "coK" = (
 /obj/structure/cable{
-	icon_state = "2-9"
+	icon_state = "2-5"
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
@@ -43892,8 +43880,14 @@
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "cDg" = (
-/obj/structure/cable{
-	icon_state = "2-5"
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 8
+	},
+/obj/structure/cable/white{
+	icon_state = "6-8"
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
@@ -43919,22 +43913,6 @@
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cDj" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 8
-	},
-/obj/structure/cable/white{
-	icon_state = "6-8"
-	},
-/turf/open/floor/plasteel,
-/area/engine/engineering)
-"cDm" = (
-/obj/machinery/vending/engivend,
-/turf/open/floor/plasteel,
-/area/engine/engineering)
-"cDp" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -43947,6 +43925,16 @@
 	},
 /turf/open/floor/engine,
 /area/engine/engineering)
+"cDm" = (
+/obj/machinery/vending/engivend,
+/turf/open/floor/plasteel,
+/area/engine/engineering)
+"cDp" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/engine,
+/area/engine/supermatter)
 "cDt" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -45739,13 +45727,13 @@
 /area/engine/engineering)
 "cTc" = (
 /obj/structure/cable/white{
-	icon_state = "4-8"
+	icon_state = "4-9"
 	},
 /turf/open/floor/engine,
 /area/engine/supermatter)
 "cTe" = (
 /obj/structure/cable/white{
-	icon_state = "4-9"
+	icon_state = "5-8"
 	},
 /turf/open/floor/engine,
 /area/engine/supermatter)
@@ -46039,7 +46027,6 @@
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
 "djk" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/yellow/visible,
 /turf/open/floor/plating,
 /area/maintenance/aft)
@@ -54172,6 +54159,9 @@
 /obj/machinery/power/terminal{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/open/floor/plasteel,
 /area/engine/gravity_generator)
 "nnA" = (
@@ -55079,12 +55069,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/research)
-"oxv" = (
-/obj/structure/cable/white{
-	icon_state = "5-8"
-	},
-/turf/open/floor/engine,
-/area/engine/supermatter)
 "oxW" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -59638,9 +59622,6 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-4"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 5
@@ -89702,7 +89683,7 @@ ccw
 ccw
 ccw
 cnZ
-cDj
+cDg
 cpt
 oUi
 vYa
@@ -90470,7 +90451,7 @@ cSO
 cen
 ckG
 clJ
-bXH
+bTg
 dQs
 cMm
 cMm
@@ -90732,7 +90713,7 @@ lQs
 ccw
 coM
 cpv
-cDp
+cDj
 qud
 qud
 gst
@@ -91508,8 +91489,8 @@ cDD
 cqU
 cMD
 cEu
+cDp
 cTc
-cTe
 cMD
 cFL
 cGf
@@ -91755,7 +91736,7 @@ cjd
 cSW
 ckI
 clJ
-chG
+bXH
 cBO
 ccw
 chV
@@ -92013,7 +91994,7 @@ cSX
 ckK
 clJ
 cmL
-coK
+chG
 gZJ
 chX
 ylc
@@ -92527,7 +92508,7 @@ cfb
 cfb
 ccw
 cmN
-cDg
+coK
 gZJ
 flF
 nbg
@@ -93036,7 +93017,7 @@ cfb
 cfH
 cSL
 cim
-bTg
+aFy
 ceo
 cfb
 cfa
@@ -93050,8 +93031,8 @@ cDE
 cEa
 cMD
 cEz
-cTc
-oxv
+cDp
+cTe
 cMD
 cFR
 cSJ
@@ -93543,7 +93524,7 @@ bYL
 cew
 bTh
 cdt
-aFy
+aku
 bXI
 bZg
 bZD
@@ -100742,8 +100723,8 @@ alj
 alj
 alj
 uvC
-uYp
-aku
+bAw
+bAw
 bAw
 bzs
 bAw
