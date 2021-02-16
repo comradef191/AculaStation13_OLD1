@@ -5,7 +5,9 @@
 ![Open Issues](https://isitmaintained.com/badge/open/BeeStation/BeeStation-Hornet.svg)
 
 **Website:** http://beestation13.com
+
 **Code:** https://github.com/beestation/beestation-hornet
+
 **Wiki:** https://wiki.beestation13.com/view/Main_Page
 
 # SETUP
